@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/cinturao-de-campeao.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Pound-For-Pound</title>
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="./image/ufc-logo.png" alt="logo ufc">
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Top-10</a></li>
+        </ul>
+    </header>
+    
+    <main class="container">
+        <div class="text-main">
+            <h2>Como funciona peso no UFC?</h1>
+            <p> 
+                Dentro de intervalo de três horas, o atleta poderá se pesar quantas vezes quiser até bater o peso;  <br /> 
+                Têm prioridades os atletas que sinalizam que já estão no peso, para que já sejam liberados, se for o caso; <br />
+                O horário final para a última pesagem é três horas após o início.
+            </p>
+            <h2>Quantos kg cada categoria UFC?</h1>
+            <p>
+                Peso Meio-Médio – até 77,1 kg / 170 lb. Peso Médio –
+                até 83,9 kg / 185 lb. <br/> Peso Meio-Pesado –
+                até 92,9 kg / 205 lb. Peso Pesado – até 120,2 kg / 265 lb.
+            </p>
+        </div>
+
+        <div class="verificador-ps">
+            <h1>Verificador de peso <em>ufc</em></h1>
+            <p>
+                E você??? Descubra agora qual seria a sua categoria atual. E se sinta como um integrante do UFC. <br>
+                <span>Digite o quanto vc está pesando</span> <br> e descubra qual seria a sua categoria!
+            </p>
+        
+            <input type="number" placeholder="Qual seu peso?" id="peso">
+            <input onclick="verificarPeso()" type="button" value="Descobrir" class="btn">
+            <br>
+            <h1 id="resul"></h1>
+        </div>
+            
+    </main>
+
+    <script src="./script.js/script.js"></script>
+</body>
+</html>
