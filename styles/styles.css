@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* <><><><><><><><><>HEADER<><><><><><><><> */
+
+header {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+
+header .logo {
+    width: 180px;
+}
+
+header ul {
+    display: flex;
+    gap: 70px;
+}
+
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #979393;
+    font-weight: 500;
+}
+
+header ul li a:hover {
+    color: #fff;
+}
+
+/* <><><><><><><><><>MAIN<><><><><><><><> */
+
+main.container {
+    background-color: #fff;
+    display: flex;
+    color: #fff;
+}
+
+main.container .text-main {
+    padding: 50px;
+}
+
+main.container .text-main h2 {
+    margin: 35px 0;
+    font-size: 35px;
+}
+
+main.container .text-main p {
+    letter-spacing: 1px;
+    line-height: 32px;
+    font-size: x-large;
+    padding: 15px;
+}
+
+main.container .text-main {
+    border-right: 1px solid gray;
+}
+
+main .verificador-ps {
+    padding: 50px;
+}
+
+main .verificador-ps h1 {
+    margin: 26px 0;
+    font-size: 45px;
+}
+
+main .verificador-ps h1 em {
+    color: #f00;
+    text-transform: uppercase;
+}
+
+main .verificador-ps p {
+    letter-spacing: 1px;
+    line-height: 32px;
+    font-size: x-large;
+    padding: 15px;
+}
+
+main .verificador-ps p span,
+#resul {
+    color: #f00;
+}
+
+main .verificador-ps .form {
+    
+}
+
+main .verificador-ps input#peso,
+main.container .verificador-ps input.btn {
+    background:#fff;
+    color: #000;
+    width: 250px;
+    height: 45px;
+    outline:0;
+    border: 1px solid #f00;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+
+main.container .verificador-ps input.btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight:900;
+    margin-left: 15px;
+}
+
+main.container .verificador-ps input.btn:hover {
+    transform: scale(1.1);
+}
+
